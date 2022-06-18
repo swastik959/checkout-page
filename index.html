@@ -1,0 +1,179 @@
+
+<html>
+  <head>
+  
+    
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>jeeb dhili kar be !!</title>
+    <link rel = "icon" href ="goku.png"/>
+  </head>
+  <body>
+    <div class="main__container">
+      <header>
+        <h1 >Checkout Page</h1>
+      </header>
+
+   <main >
+        <aside class="cart__container">
+          
+          <div class="cart__items">
+            <figure class="cart__item">
+              <img src="src/assets/photo1.png"  />
+              <figcaption class="cart__item-text">
+                <h3>Vintage Backbag</h3>
+                <p>
+                  <span class="current__price">$500000000000</span>
+                  <small><sup class="old__price">$5000000000000</sup></small>
+                </p>
+                <div class="control__item">
+                  <button>-</button>
+                  <span class="item__stock">1</span>
+                  <button>+</button>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="cart__item">
+              <img src="src/assets/photo2.png"  />
+              <figcaption class="cart__item-text">
+                <h3>Levi Shoes</h3>
+                <p>
+                  <span class="current__price">teri aukat nahi ha re</span>
+                  <small><sub class="old__price">$12000000000000000000</sub></small>
+                </p>
+                <div class="control__item">
+                  <button>-</button>
+                  <span class="item__stock">1</span>
+                  <button>+</button>
+                 
+                </div>
+              </figcaption>
+            </figure>
+           
+          </div>
+
+          <table class="cart__table">
+            <tbody>
+              <tr>
+                <th>Shipping</th>
+                <td>$infinite</td>
+              </tr>
+              <tr>
+                <th>Total</th>
+                <td>emi bharo zindagi bhar</td>
+              </tr>
+            </tbody>
+          </table>
+        </aside>
+     
+
+        <form class="form__container">
+          <fieldset class="form__group">
+            <legend class="form__title">Contact information</legend>
+
+            <label for=""> Email </label>
+            <div class="form-control">
+              <i class="bx bxs-envelope"></i>
+              <input
+                type="email"
+                autocomplete="off"
+                placeholder="Enter your email..."
+                name="email"
+                required/>
+            </div>
+            <label for="">Phone</label>
+            <div class="form-control">
+              <i class="bx bxs-phone"></i>
+              <input
+                type="tel"
+                autocomplete="off"
+                placeholder="Enter your phone..."
+                name="phone"
+                required/>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__group">
+            <legend class="form__title">Shipping Address</legend>
+
+            <label for="">Full name</label>
+            <div class="form-control">
+              <i class="bx bxs-user"></i>
+              <input
+                name="name"
+                type="text"
+                placeholder="Enter your name..."
+                 required/>
+            </div>
+            <label for="">Address</label>
+            <div class="form-control">
+              <i class="bx bxs-home"></i>
+              <input
+                name="address"
+                type="text"
+                placeholder="Enter your address..."
+                required/>
+            </div>
+
+            <label for="">City</label>
+            <div class="form-control">
+              <i class="bx bxs-building-house"></i>
+              <input
+                name="city"
+                type="text"
+                autocomplete="off"
+                placeholder="Enter your city..."
+                required/>
+            </div>
+
+            <div class="form__row">
+              <div>
+                <label for="country"> Country </label>
+                <div class="form-control">
+                  <i class="bx bxs-building-house"></i>
+                  <select name="country" id="country" required>
+                    <option value="">Select a country</option>
+                    <option value="India">India</option>
+                   
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label for=""> Postal Code </label>
+                <div class="form-control">
+                  <i class="bx bx-mail-send"></i>
+                  <input
+                    name="code"
+                    type="number"
+                    maxlength="100" 
+                    placeholder="Postal Code..."
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+
+            <label for="privace">
+              <input type="checkbox" name="save" id="privace" />
+              Save this information for next time
+            </label>
+          </fieldset>
+
+          <nav class="form__footer">
+            <button type="submit" class="btn btn-primary">Continue</button>
+          </nav>
+        </form>
+      </main>
+
+      <footer>
+        <p>
+          
+          </strong>
+          Cosmoids.com
+        </p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
